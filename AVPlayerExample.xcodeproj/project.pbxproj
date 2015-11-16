@@ -14,6 +14,9 @@
 		1C09439B1BF8CC210001A95E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0943991BF8CC210001A95E /* LaunchScreen.storyboard */; };
 		1C0943A61BF8CC220001A95E /* AVPlayerExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0943A51BF8CC220001A95E /* AVPlayerExampleTests.swift */; };
 		1C0943B11BF8CC220001A95E /* AVPlayerExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0943B01BF8CC220001A95E /* AVPlayerExampleUITests.swift */; };
+		1C0943BF1BF8CC310001A95E /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0943BE1BF8CC310001A95E /* AVKit.framework */; };
+		1C0943C11BF8D0460001A95E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0943C01BF8D0460001A95E /* ViewController2.swift */; };
+		1C9E61491BFA1E27000B95C0 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E61481BFA1E27000B95C0 /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		1C0943AC1BF8CC220001A95E /* AVPlayerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C0943B01BF8CC220001A95E /* AVPlayerExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerExampleUITests.swift; sourceTree = "<group>"; };
 		1C0943B21BF8CC220001A95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C0943BE1BF8CC310001A95E /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		1C0943C01BF8D0460001A95E /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		1C9E61481BFA1E27000B95C0 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C0943BF1BF8CC310001A95E /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +84,7 @@
 		1C0943841BF8CC210001A95E = {
 			isa = PBXGroup;
 			children = (
+				1C0943BE1BF8CC310001A95E /* AVKit.framework */,
 				1C09438F1BF8CC210001A95E /* AVPlayerExample */,
 				1C0943A41BF8CC220001A95E /* AVPlayerExampleTests */,
 				1C0943AF1BF8CC220001A95E /* AVPlayerExampleUITests */,
@@ -99,6 +107,8 @@
 			children = (
 				1C0943901BF8CC210001A95E /* AppDelegate.swift */,
 				1C0943921BF8CC210001A95E /* ViewController.swift */,
+				1C0943C01BF8D0460001A95E /* ViewController2.swift */,
+				1C9E61481BFA1E27000B95C0 /* ViewController3.swift */,
 				1C0943941BF8CC210001A95E /* Main.storyboard */,
 				1C0943971BF8CC210001A95E /* Assets.xcassets */,
 				1C0943991BF8CC210001A95E /* LaunchScreen.storyboard */,
@@ -258,6 +268,8 @@
 			files = (
 				1C0943931BF8CC210001A95E /* ViewController.swift in Sources */,
 				1C0943911BF8CC210001A95E /* AppDelegate.swift in Sources */,
+				1C9E61491BFA1E27000B95C0 /* ViewController3.swift in Sources */,
+				1C0943C11BF8D0460001A95E /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +496,7 @@
 				1C0943B71BF8CC220001A95E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C0943B81BF8CC220001A95E /* Build configuration list for PBXNativeTarget "AVPlayerExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				1C0943BA1BF8CC220001A95E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C0943BB1BF8CC220001A95E /* Build configuration list for PBXNativeTarget "AVPlayerExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				1C0943BD1BF8CC220001A95E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AVKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
@@ -20,6 +22,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let destination = segue.destinationViewController as? AVPlayerViewController {
+            let url = NSURL(string: "http://www.ebookfrenzy.com/ios_book/movie/movie.mov")!
+            destination.player = AVPlayer(URL: url)
+        }
+    }
 }
-
